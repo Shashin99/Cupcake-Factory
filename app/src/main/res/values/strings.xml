@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CupCake_Factory</string>
+    <string name="Login_Head"> Login Here </string>
+    <string name="Login_Type"> User Type </string>
+    <string name="username"> User Name </string>
+    <string name="password"> Password </string>
+    <string name="Login"> Login </string>
+    <string name="Register"> Register </string>
+    <string-array name="type">
+        <item> </item>
+        <item> Admin </item>
+        <item> User </item>
+    </string-array>
+
+</resources>
