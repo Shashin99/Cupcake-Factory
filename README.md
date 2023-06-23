@@ -1,2 +1,2 @@
-# Projec_01
+# Cupcake Factory
 A mobile application for The Cupcake Factory
