@@ -12,16 +12,31 @@
         android:theme="@style/Theme.CupCake_Factory"
         tools:targetApi="31">
         <activity
+            android:name=".Admin_ProcessOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_ManageCategories"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_UserProfiles"
+            android:exported="false" />
+        <activity
+            android:name=".ViewCategories"
+            android:exported="false" />
+        <activity
+            android:name=".ViewOrder"
+            android:exported="false" />
+        <activity
+            android:name=".SeasonalOffers"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegister"
+            android:exported="false" />
+        <activity
             android:name=".UserHome"
             android:exported="false" />
         <activity
             android:name=".AdminHome"
-            android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".Login"-->
-<!--            android:exported="false" />-->
-        <activity
-            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +44,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+<!--        <activity-->
+<!--            android:name=".Login"-->
+<!--            android:exported="true">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
     </application>
 
 </manifest>

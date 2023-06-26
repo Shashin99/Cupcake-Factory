@@ -4,12 +4,23 @@
     <string name="Login_Type"> User Type </string>
     <string name="username"> User Name </string>
     <string name="password"> Password </string>
+
     <string name="Login"> Login </string>
     <string name="Register"> Register </string>
+
     <string-array name="type">
         <item> </item>
         <item> Admin </item>
         <item> User </item>
     </string-array>
+
+    <string name="button1"> User Profile </string>
+    <string name="button2"> View Categories </string>
+    <string name="button3"> View Orders </string>
+    <string name="button4"> Seasonal Offers </string>
+
+    <string name="adminButton1"> User Profiles </string>
+    <string name="adminButton2"> Manage Categories </string>
+    <string name="adminButton3"> Process Orders </string>
 
 </resources>

@@ -1,17 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="#57A0D2"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context=".AdminHome">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/adminButton1"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Admin Home"
-        android:textSize="34sp"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="294dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#008ECC"
+        android:onClick="@string/adminButton1"
+        android:text="User ProfileS"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/adminButton2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0F52BA"
+        android:onClick="@string/adminButton2"
+        android:text="Manage Categories"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/adminButton3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#008ECC"
+        android:onClick="@string/adminButton3"
+        android:text="Process Orders"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
