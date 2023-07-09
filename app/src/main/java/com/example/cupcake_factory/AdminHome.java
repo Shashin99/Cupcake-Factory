@@ -11,13 +11,12 @@ public class AdminHome extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_admin_home);
+
         Button adminButton1 = findViewById(R.id.adminButton1);
         Button adminButton2 = findViewById(R.id.adminButton2);
         Button adminButton3 = findViewById(R.id.adminButton3);
-
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_home);
 
         adminButton1.setOnClickListener(new View.OnClickListener() {
             @Override

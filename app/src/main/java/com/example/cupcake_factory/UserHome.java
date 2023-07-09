@@ -9,14 +9,14 @@ import android.widget.Button;
 
 public class UserHome extends AppCompatActivity {
 
-    Button button2 = findViewById(R.id.button2);
-    Button button3 = findViewById(R.id.button3);
-    Button button4 = findViewById(R.id.button4);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_home);
+
+        Button button2 = findViewById(R.id.button2);
+        Button button3 = findViewById(R.id.button3);
+        Button button4 = findViewById(R.id.button4);
 
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
