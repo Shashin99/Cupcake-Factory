@@ -71,9 +71,6 @@
                 android:text="CANCLE ORDER"
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
-
-
-
         </LinearLayout>
 
         <TextView
@@ -120,8 +117,6 @@
                 android:textColor="@android:color/white"
                 android:textStyle="bold" />
         </LinearLayout>
-
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

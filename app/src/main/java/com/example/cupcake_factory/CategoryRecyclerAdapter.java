@@ -178,5 +178,4 @@ public class CategoryRecyclerAdapter extends RecyclerView.Adapter<CategoryRecycl
             dialog.show();
         }
     }
-
 }
