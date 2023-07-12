@@ -1,5 +1,5 @@
 # Cupcake Factory
-Mobile Application (self-study)
+Mobile Application (Self-Study)
 
 <h4> Scenario </h4>
 <ul>
