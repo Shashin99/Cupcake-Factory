@@ -1,5 +1,5 @@
 # CupCake Factory
-Mobile Application (Self-Study)
+Mobile Application Development (Self-Studies)
 
 <h4> Scenario </h4>
 <ul>
