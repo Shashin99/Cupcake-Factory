@@ -1,4 +1,4 @@
-# Cupcake Factory
+# CupCake Factory
 Mobile Application (Self-Study)
 
 <h4> Scenario </h4>
