@@ -13,4 +13,6 @@ Mobile Application Development (Self-Studies)
 Tools and Tecnologies : -
 Java , AndroidStudio
 
+Database : - 
+Firebase
 
